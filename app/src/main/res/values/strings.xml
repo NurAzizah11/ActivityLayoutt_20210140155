@@ -7,9 +7,12 @@
     <string name="btnLogin">"LOGIN"</string>
     <string name="user">"Username"</string>
     <string name="pass">"Password"</string>
-    <string name="name">"Username"</string>
-    <string name="usia">"Password"</string>
+    <string name="name">"Name:"</string>
+    <string name="usia">"Phone:"</string>
+    <string name="phone">"Address:"</string>
     <string name="pertanyaan">"Apakah Anda kuliah di UMY?"</string>
     <string name="tombol1">"YES"</string>
     <string name="tombol2">"NO"</string>
+    <string name="btn1">"Left"</string>
+    <string name="btn2">"Right"</string>
 </resources>

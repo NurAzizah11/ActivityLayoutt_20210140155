@@ -1,0 +1,15 @@
+<resources>
+    <string name="Nama">Nur Azizah</string>
+    <string name="NIM">20210140155</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="Title">"Assalamu'alaikum"</string>
+    <string name="btnSub">"LEARN MORE"</string>
+    <string name="btnLogin">"LOGIN"</string>
+    <string name="user">"Username"</string>
+    <string name="pass">"Password"</string>
+    <string name="name">"Username"</string>
+    <string name="usia">"Password"</string>
+    <string name="pertanyaan">"Apakah Anda kuliah di UMY?"</string>
+    <string name="tombol1">"YES"</string>
+    <string name="tombol2">"NO"</string>
+</resources>

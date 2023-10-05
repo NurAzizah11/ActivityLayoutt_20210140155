@@ -1,0 +1,65 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TableRow
+        android:paddingTop="10px"
+        android:gravity="center"
+        android:layout_marginTop="20px">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_span="2"
+            android:text="LOGIN"
+            android:textColor="#890000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+    <!-- Baris pertama -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:paddingEnd="16dp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:id="@+id/editTextNama"
+            android:hint="Masukkan username Anda" />
+    </TableRow>
+
+    <!-- Baris kedua -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/usia"
+            android:paddingEnd="16dp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:id="@+id/editTextUsia"
+            android:hint="Masukkan password Anda" />
+    </TableRow>
+
+    <!-- Baris ketiga -->
+    <TableRow
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="Submit"></Button>
+    </TableRow>
+</TableLayout>
